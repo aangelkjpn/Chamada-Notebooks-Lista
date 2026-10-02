@@ -4,6 +4,8 @@ Site da **E.E. Francisco Pessoa** para organizar a distribuição dos notebooks 
 
 Os professores acessam pelo QR code ou pelo link, escolhem a turma e veem a lista de alunos com o número da chamada. A regra é simples: **o aluno nº 1 usa o notebook 1, o aluno nº 2 usa o notebook 2**, e assim por diante. Na hora de guardar no carrinho, a mesma ordem.
 
+**🔗 [Ver online](https://aangelkjpn.github.io/Chamada-Notebooks-Lista/)** · a lista de alunos é protegida pelo código de acesso da escola.
+
 ## O que o site faz
 
 - Mostra a lista de alunos de cada turma, com o número da chamada
