@@ -16,6 +16,38 @@ Os professores acessam pelo QR code ou pelo link, escolhem a turma e veem a list
 
 A lista de alunos fica numa Planilha Google da escola, e o site lê e grava nela por meio do Google Apps Script. Nenhum dado de aluno fica neste repositório, e o acesso à lista é protegido por um código da escola.
 
-## Feito com
+## Tecnologias
 
-HTML, CSS e JavaScript, com Bootstrap, Google Apps Script e GitHub Pages.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+![Google Apps Script](https://img.shields.io/badge/Google_Apps_Script-4285F4?style=flat&logo=google&logoColor=white)
+
+- **HTML, CSS e JavaScript** puros, com **Bootstrap 5**
+- **Google Apps Script + Planilhas Google** como back-end
+- **GitHub Pages** para hospedar o site
+
+## Como configurar
+
+1. Na Planilha Google da escola, crie uma aba por turma (ex.: `6A`, `1B`), com o número da chamada na coluna A e o nome do aluno na coluna B.
+2. Em **Extensões → Apps Script**, cole o conteúdo de `apps-script/Codigo.gs` e troque o `CODIGO_DE_ACESSO`.
+3. Publique como **App da Web** e copie a URL gerada.
+4. Cole essa URL no `API_URL` do arquivo `js/config.js`.
+
+## Estrutura
+
+```
+├── index.html            # Página principal
+├── style.css             # Estilos
+├── js/
+│   ├── config.js         # URL da API e nome da escola
+│   └── app.js            # Lógica do site
+├── apps-script/
+│   └── Codigo.gs         # Back-end no Google Apps Script
+└── libs/                 # Bootstrap e gerador de QR code
+```
+
+---
+
+Criado durante o estágio no **PROATI (SEDUC-SP)** · Desenvolvido por [Angelo Gabriel](https://github.com/aangelkjpn)
