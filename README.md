@@ -6,6 +6,12 @@ Os professores acessam pelo QR code ou pelo link, escolhem a turma e veem a list
 
 **🔗 [Ver online](https://aangelkjpn.github.io/Chamada-Notebooks-Lista/)** · a lista de alunos é protegida pelo código de acesso da escola.
 
+<p align="center">
+  <img src="./docs/tela-turma.png" width="700" alt="Tela de escolha da turma">
+</p>
+
+<p align="center"><sub>Nomes dos alunos ocultados para preservar a privacidade.</sub></p>
+
 ## O que o site faz
 
 - Mostra a lista de alunos de cada turma, com o número da chamada
